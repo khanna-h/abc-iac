@@ -1,0 +1,16 @@
+# This is a comment.
+# Each line is a file pattern followed by one or more owners.
+
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# @global-owner1 and @global-owner2 will be requested for
+# review when someone opens a pull request.
+#*       @global-owner1
+
+# The codeowner file is owned by platform-eng-admin team
+.github/CODEOWNERS @amplify-health/platform-eng-admin
+
+# Below IAC workflows are owned by platform-eng team
+.github/workflows/iac-scan.yml @amplify-health/platform-eng
+.github/workflows/iac-scan.yaml @amplify-health/platform-eng
+
